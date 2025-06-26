@@ -1,0 +1,19 @@
+{
+  "descriptions": [
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "criteria": {
+        "SeriesDescription": "*MPRAGE*"
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SeriesDescription": "*rsfMRI*"
+      }
+    }
+  ]
+}
