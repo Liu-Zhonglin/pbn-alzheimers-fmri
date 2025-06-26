@@ -31,9 +31,7 @@ The central finding of the original paper, which this code aims to model, is the
 
 ### How to Use
 
-1.  Clone the repository to your local machine.
-2.  Ensure you have the required Python libraries installed.
-3.  The main analysis scripts can be found in the `/scripts` directory.
+To be updated
 
 ### Acknowledgments
 
