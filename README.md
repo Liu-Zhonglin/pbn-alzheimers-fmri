@@ -6,7 +6,8 @@ This repository provides a computational framework for modeling the progressive 
 
 The methodology is a direct implementation of the work described in the following paper:
 
-> Liu, Zhonglin, & Zhang, Louxin. (2025). *Inferring Progressive Disconnection in Alzheimer’s Disease with Probabilistic Boolean Networks* (currently under review at APBC 2025)
+> Liu, Zhonglin, & Zhang, Louxin. (2025). *Inferring Progressive Disconnection in Alzheimer’s Disease with Probabilistic Boolean Networks* (currently under review at APBC 2025).  
+> [View on OpenReview](https://openreview.net/forum?id=qLbZfaluWq&noteId=qLbZfaluWq)
 
 ---
 
