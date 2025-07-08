@@ -4,9 +4,9 @@
 
 This repository provides a computational framework for modeling the progressive failure of brain connectivity in Alzheimer's Disease (AD). Using **Probabilistic Boolean Networks (PBNs)** and resting-state functional Magnetic Resonance Imaging (fMRI) data, this project quantifies the disruption of directed influence between key brain networks, offering insights into the "disconnection syndrome" hypothesis of AD.
 
-The methodology is a direct implementation of the work described in the paper:
+The methodology is a direct implementation of the work described in the following paper:
 
-> Liu, Z., & Zhang, L. (2023). *Inferring Progressive Disconnection in Alzheimer’s Disease with Probabilistic Boolean Networks*.
+> Liu, Zhonglin, & Zhang, Louxin. (2025). *Inferring Progressive Disconnection in Alzheimer’s Disease with Probabilistic Boolean Networks* (currently under review at APBC 2025)
 
 ---
 
