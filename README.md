@@ -35,7 +35,6 @@ To be updated
 
 ### Acknowledgments
 
-*   This project is based on the novel framework proposed by **Zhonglin Liu(u3597461@connect.hku.hk) and Louxin Zhang**.
 *   The project was supported by the University Research Fellowship Programme (URFP) at The University of Hong Kong (HKU).
 *   Data used in preparation of this project were obtained from the Alzheimer’s Disease
 Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators
