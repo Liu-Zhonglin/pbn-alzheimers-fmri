@@ -51,7 +51,7 @@ Once the data is preprocessed, run the following scripts in order:
 
 1. **Harmonize and Extract ROIs**:
     ```bash
-    run harmonize_and_extract.py
+    python harmonize_and_extract.py
     ```
     This script harmonizes the Repetition Time (TR) to 0.61 seconds and extracts the mean BOLD time series for the 18 ROIs.
 
@@ -68,25 +68,25 @@ This stage uses a structure-aware approach inspired by SAILOR.
 
 1. **Generate Reference Networks**:
     ```bash
-    run generate_custom_references.py
+    python generate_custom_references.py
     ```
     This creates the consensus network that serves as an anatomical prior for the model.
 
 2. **Run the Hybrid PBN Engine**:
     ```bash
-    run hybrid_pbn_engine.py
+    python hybrid_pbn_engine.py
     ```
     This is the core script for PBN inference, generating a subject-specific PBN in JSON (JavaScript Object Notation) format.
 
 3. **Calculate Influence Matrix**:
     ```bash
-    run Influence_Matrix.py
+    python Influence_Matrix.py
     ```
     This script processes the PBN output to derive the final $18 \times 18$ influence matrix for each subject.
 
 4. **Perform Group Analysis**:
     ```bash
-    run run_analysis.py
+    python run_analysis.py
     ```
     This script conducts the statistical analysis, including Analysis of Variance (ANOVA) and Benjamini-Hochberg False Discovery Rate (FDR) correction, to identify significant group differences, as detailed in the paper.
 
