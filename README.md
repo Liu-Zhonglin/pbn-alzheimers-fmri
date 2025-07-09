@@ -54,14 +54,14 @@ Once the data is preprocessed, run the following scripts in order:
     ```bash
     python harmonize_and_extract.py
     ```
-    This script harmonizes the Repetition Time (TR) to 0.61 seconds and extracts the mean BOLD time series for the 18 ROIs via AAL3 [atlas](https://www.oxcns.org/aal3.html).
+    This script harmonizes the Repetition Time (TR) to 0.61 seconds and extracts the mean BOLD time series for the 18 ROIs via [AAL3 atlas](https://www.oxcns.org/aal3.html).
 
 2. **Denoise and Binarize**:
     ```matlab
     % Run in MATLAB
     Denoising_and_Binarization.m
     ```
-    This MATLAB script performs denoising and HMM(Hidden Markov Model) binarization, producing a binary time series for each ROI.
+    This MATLAB script performs denoising and HMM binarization, producing a binary time series for each ROI.
 
 #### 3. PBN Inference and Analysis
 
